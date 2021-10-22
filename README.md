@@ -1,9 +1,3 @@
-# HydraSum - Disentangling Stylistic Features in Text Summarization using Multi-Decoder Models
-Paper Link: https://arxiv.org/abs/2110.04400
-
-Authors: Tanya Goyal, Nazneen Fatema Rajani, Wenhao Liu, Wojciech Kryściński
-
-Environment base is Python 3.6. Also see requirements.txt
 
 ## Introduction
 We introduce a new summarization model HydraSum, that extends the single decoder framework of current models, e.g. BART, to a mixture-of-experts version consisting of multiple decoders. Our proposed model encourages each expert, i.e. decoder, to learn and generate stylistically-distinct summaries along dimensions such as abstractiveness, length, specificity, and others. At each time step, HydraSum employs a gating mechanism that decides the contribution of each individual decoder to the next token's output probability distribution. 
